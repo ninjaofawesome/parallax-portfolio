@@ -13,10 +13,26 @@ h6 {
   font-family: "old sans black", Arial, sans-serif;
   font-weight: 900; }
 
+.serif {
+  display: inline-block;
+  transform: scale(0.65, 0.75);
+  /* W3C */
+  -webkit-transform: scale(0.65, 0.75);
+  /* Safari and Chrome */
+  -moz-transform: scale(0.65, 0.75);
+  /* Firefox */
+  -ms-transform: scale(0.65, 0.75);
+  /* IE 9 */
+  -o-transform: scale(0.65, 0.75);
+  font-family: Georgia, "times new roman", serif;
+  font-style: italic;
+  letter-spacing: -5px;
+  font-weight: 700; }
+
 .title {
   color: white;
   text-align: center;
-  font-size: 25em;
+  font-size: 30em;
   padding-top: 5%; }
 
 .section-title {

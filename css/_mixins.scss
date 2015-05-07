@@ -1,3 +1,12 @@
+@mixin stretch-font($num, $num2){
+  display:inline-block;
+      transform:scale($num, $num2); /* W3C */
+      -webkit-transform:scale($num, $num2); /* Safari and Chrome */
+      -moz-transform:scale($num, $num2); /* Firefox */
+      -ms-transform:scale($num, $num2); /* IE 9 */
+      -o-transform:scale($num, $num2);
+}
+
 //for breakpoint specific views
 @mixin breakpoint($point) {
   @if $point == iphone {

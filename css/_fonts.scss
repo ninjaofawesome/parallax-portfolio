@@ -19,10 +19,18 @@ h6 {
   font-weight: 900;
 }
 
+.serif {
+  @include stretch-font(0.65, 0.75);
+  font-family: $serif;
+  font-style: italic;
+  letter-spacing: -5px;
+  font-weight: 700;
+
+}
 .title {
   color: $white;
   text-align: center;
-  font-size: 25em;
+  font-size: 30em;
   padding-top: 5%;
 }
 
