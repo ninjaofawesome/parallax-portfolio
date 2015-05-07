@@ -25,6 +25,17 @@ h6 {
     padding-top: 0; }
   .section-title.jade {
     color: #4c9185; }
+  .section-title.orchid {
+    color: #6b5d65; }
+
+svg {
+  margin-top: 15%;
+  width: 25em;
+  height: 1.5em;
+  font: 900 400%/1.2 "old sans black", Arial, sans-serif; }
+
+text {
+  fill: url(#wood); }
 
 body {
   background: #2cc4aa;

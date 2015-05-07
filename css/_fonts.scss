@@ -35,5 +35,20 @@ h6 {
   &.jade {
     color: $jade;
   }
+  &.orchid {
+    color: $orchid;
+  }
 }
+
+svg {
+  margin-top: 15%;
+  width: 25em; height: 1.5em;
+  font: 900 400%/1.2 $oldsansblack;
+}
+
+text { fill: url(#wood); }
+
+
+
+
 
