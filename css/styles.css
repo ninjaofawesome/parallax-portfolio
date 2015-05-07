@@ -15,19 +15,18 @@ h6 {
 
 .serif {
   display: inline-block;
-  transform: scale(0.65, 0.75);
+  transform: scale(0.75, 1);
   /* W3C */
-  -webkit-transform: scale(0.65, 0.75);
+  -webkit-transform: scale(0.75, 1);
   /* Safari and Chrome */
-  -moz-transform: scale(0.65, 0.75);
+  -moz-transform: scale(0.75, 1);
   /* Firefox */
-  -ms-transform: scale(0.65, 0.75);
+  -ms-transform: scale(0.75, 1);
   /* IE 9 */
-  -o-transform: scale(0.65, 0.75);
-  font-family: Georgia, "times new roman", serif;
+  -o-transform: scale(0.75, 1);
+  font-family: Garamond, "times new roman", serif;
   font-style: italic;
-  letter-spacing: -5px;
-  font-weight: 700; }
+  font-weight: 400; }
 
 .title {
   color: white;
