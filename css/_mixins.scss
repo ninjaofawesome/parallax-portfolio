@@ -1,3 +1,11 @@
+@mixin bg-size($param){
+  -webkit-background-size: $param;
+  -moz-background-size: $param;
+  -o-background-size: $param;
+  background-size: $param;
+}
+
+
 @mixin stretch-font($num, $num2){
   display:inline-block;
       transform:scale($num, $num2); /* W3C */
@@ -5,6 +13,14 @@
       -moz-transform:scale($num, $num2); /* Firefox */
       -ms-transform:scale($num, $num2); /* IE 9 */
       -o-transform:scale($num, $num2);
+}
+
+@mixin rotate ($deg) {
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
 }
 
 //for breakpoint specific views

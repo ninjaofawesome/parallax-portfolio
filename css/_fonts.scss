@@ -8,6 +8,9 @@
       url('../fonts/oldsansblack/oldsansblack-webfont.svg') format('svg'); /* Legacy iOS */
 }
 
+p {
+  text-align: justify;
+}
 
 h1,
 h2,
@@ -16,45 +19,35 @@ h4,
 h5,
 h6 {
   font-family: $oldsansblack;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .serif {
   @include stretch-font(0.75, 1);
   font-family: $serif;
   font-style: italic;
-  // letter-spacing: -5px;
-  font-weight: 400;
-
 }
-.title {
+
+.hello {
   color: $white;
   text-align: center;
   font-size: 30em;
-  padding-top: 5%;
-}
-
-.section-title {
-  padding-top: 15%;
-  &.subtitle {
-    padding-top: 0;
+  @include breakpoint(tablet){
+   font-size: 25em;
+  }
+  @include breakpoint(mobile){
+    padding-top: 15%;
+    font-size: 20em;
+  }
+  @include breakpoint(iphone){
+    padding-top: 37.5%;
+    font-size: 10em;
   }
 
-  &.jade {
-    color: $jade;
-  }
-  &.orchid {
-    color: $orchid;
-  }
 }
 
-svg {
-  margin-top: 15%;
-  width: 25em; height: 1.5em;
-  font: 900 400%/1.2 $oldsansblack;
-}
 
-text { fill: url(#wood); }
+
 
 
 
