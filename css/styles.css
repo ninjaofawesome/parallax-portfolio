@@ -47,7 +47,7 @@ h6 {
       font-size: 10em; } }
 
 #home {
-  background: url(../images/tc.png) no-repeat center center fixed;
+  background: url(../images/tc.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,7 +68,7 @@ h6 {
   width: 100%; }
 
 #ny {
-  background: url(../images/nyc.png) no-repeat center center fixed;
+  background: url(../images/nyc.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,9 +81,14 @@ h6 {
   position: relative; }
 
 .foreground {
-  background: white;
+  background: url(../images/hn.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   min-height: 700px;
-  height: 700px;
+  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px; }
+  max-width: 1920px;
+  position: relative; }

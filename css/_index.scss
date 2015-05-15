@@ -1,5 +1,5 @@
 #home {
-  background: url(../images/tc.png) no-repeat center center fixed;
+  background: url(../images/tc.jpg) no-repeat center center fixed;
   @include bg-size(cover);
   min-height: 1000px;
   height: 1000px;
@@ -20,22 +20,29 @@
 }
 
 #ny {
-  background: url(../images/nyc.png) no-repeat center center fixed;
+  background: url(../images/nyc.jpg) no-repeat center center fixed;
   @include bg-size(cover);
   min-height: 1000px;
   height: 1000px;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
-  position: relative
+  position: relative;
 }
 
 .foreground {
-  background: $white;
+
+  background: url(../images/hn.jpg) no-repeat center center fixed;
+  @include bg-size(cover);
   min-height: 700px;
-  height: 700px;
+  height: 1000px;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
+  position: relative;
+
+}
+
+.cutout {
 
 }
