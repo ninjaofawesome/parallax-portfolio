@@ -31,9 +31,10 @@
 }
 
 .foreground {
-
-  background: url(../images/hn.jpg) no-repeat center center fixed;
-  @include bg-size(cover);
+  &.image {
+    background: url(../images/hn.jpg) no-repeat center center fixed;
+    @include bg-size(cover);
+  }
   min-height: 700px;
   height: 1000px;
   margin: 0 auto;
@@ -43,14 +44,18 @@
 
 }
 
-.cutout {
-
-}
 
 .article-box {
 width: 100%;
 height: auto;
 background: rgba($lt-gray, 0.5);
 padding: 2%;
-margin: 5%;
+margin: 2% 5%;
+}
+
+.contact-box {
+  width: 320px;
+  height: auto;
+  margin: 15% auto;
+
 }

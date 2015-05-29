@@ -28,6 +28,10 @@ h6 {
   font-style: italic;
 }
 
+.centered {
+  text-align: center;
+}
+
 .hello {
   color: $white;
   text-align: center;
@@ -58,8 +62,25 @@ h6 {
 .about {
   color: $black;
   margin: 5%;
-  font-weight: 700;
   font-size: 1.25em;
+}
+
+.contact {
+  margin-top: 10%;
+  font-size: 5em;
+}
+
+.contact-link {
+  @include link-transition(700ms);
+  color: $black;
+  margin-left: 45%;
+
+  &:hover, &:active, &:focus {
+    color: $orchid;
+  }
+  &:visited {
+    color: $black;
+  }
 }
 
 

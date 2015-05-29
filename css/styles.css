@@ -30,6 +30,9 @@ h6 {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-style: italic; }
 
+.centered {
+  text-align: center; }
+
 .hello {
   color: white;
   text-align: center;
@@ -56,8 +59,23 @@ h6 {
 .about {
   color: #141414;
   margin: 5%;
-  font-weight: 700;
   font-size: 1.25em; }
+
+.contact {
+  margin-top: 10%;
+  font-size: 5em; }
+
+.contact-link {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  color: #141414;
+  margin-left: 45%; }
+  .contact-link:hover, .contact-link:active, .contact-link:focus {
+    color: #6b5d65; }
+  .contact-link:visited {
+    color: #141414; }
 
 #home {
   background: url(../images/tc.jpg) no-repeat center center fixed;
@@ -94,21 +112,27 @@ h6 {
   position: relative; }
 
 .foreground {
-  background: url(../images/hn.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   min-height: 700px;
   height: 1000px;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
   position: relative; }
+  .foreground.image {
+    background: url(../images/hn.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 .article-box {
   width: 100%;
   height: auto;
   background: rgba(229, 229, 229, 0.5);
   padding: 2%;
-  margin: 5%; }
+  margin: 2% 5%; }
+
+.contact-box {
+  width: 320px;
+  height: auto;
+  margin: 15% auto; }
