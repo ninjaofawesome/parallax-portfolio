@@ -10,6 +10,7 @@
 
 p {
   text-align: justify;
+  font-weight: 700;
 }
 
 h1,
@@ -52,7 +53,7 @@ h6 {
 }
 
 .subtitle {
-  color: $white;
+  color: $black;
   font-size: 7em;
   font-family: $serif;
   font-style: italic;
@@ -65,21 +66,46 @@ h6 {
   font-size: 1.25em;
 }
 
-.contact {
-  margin-top: 10%;
-  font-size: 5em;
-}
-
-.contact-link {
+.about-link {
   @include link-transition(700ms);
   color: $black;
-  margin-left: 45%;
-
   &:hover, &:active, &:focus {
-    color: $orchid;
+    color: $lilac;
   }
   &:visited {
     color: $black;
+  }
+  // &.bump{
+  //   margin-left: 2%;
+  // }
+}
+
+.contact {
+  font-size: 6em;
+  text-align: center;
+}
+
+.contact-subtitle {
+  margin-top: 25%;
+  text-align: center;
+}
+
+
+
+.contact-link {
+  color: $black;
+  position: absolute;
+  &:hover, &:active, &:focus {
+    color: $black;
+  }
+  &:visited {
+    color: $black;
+  }
+  &.twitter {
+    left: 47%;
+  }
+  &.coffee {
+    left: 50%;
   }
 }
 

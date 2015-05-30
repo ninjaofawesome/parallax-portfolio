@@ -5,7 +5,8 @@
   src: url("../fonts/oldsansblack/oldsansblack-webfont.ttf?#iefix") format("embedded-opentype"), url("../fonts/oldsansblack/oldsansblack-webfont.woff2") format("woff2"), url("../fonts/oldsansblack/oldsansblack-webfont.woff2") format("woff"), url("../fonts/oldsansblack/oldsansblack-webfont.ttf") format("truetype"), url("../fonts/oldsansblack/oldsansblack-webfont.svg") format("svg");
   /* Legacy iOS */ }
 p {
-  text-align: justify; }
+  text-align: justify;
+  font-weight: 700; }
 
 h1,
 h2,
@@ -50,7 +51,7 @@ h6 {
       font-size: 10em; } }
 
 .subtitle {
-  color: white;
+  color: #141414;
   font-size: 7em;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-style: italic;
@@ -61,21 +62,36 @@ h6 {
   margin: 5%;
   font-size: 1.25em; }
 
-.contact {
-  margin-top: 10%;
-  font-size: 5em; }
-
-.contact-link {
+.about-link {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
   -o-transition: all 700ms ease-out;
   transition: all 700ms ease-out;
+  color: #141414; }
+  .about-link:hover, .about-link:active, .about-link:focus {
+    color: #6a386b; }
+  .about-link:visited {
+    color: #141414; }
+
+.contact {
+  font-size: 6em;
+  text-align: center; }
+
+.contact-subtitle {
+  margin-top: 25%;
+  text-align: center; }
+
+.contact-link {
   color: #141414;
-  margin-left: 45%; }
+  position: absolute; }
   .contact-link:hover, .contact-link:active, .contact-link:focus {
-    color: #6b5d65; }
+    color: #141414; }
   .contact-link:visited {
     color: #141414; }
+  .contact-link.twitter {
+    left: 47%; }
+  .contact-link.coffee {
+    left: 50%; }
 
 #home {
   background: url(../images/tc.jpg) no-repeat center center fixed;
@@ -133,6 +149,6 @@ h6 {
   margin: 2% 5%; }
 
 .contact-box {
-  width: 320px;
+  position: relative;
   height: auto;
   margin: 15% auto; }
