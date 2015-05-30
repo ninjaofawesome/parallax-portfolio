@@ -62,17 +62,6 @@ h6 {
   margin: 5%;
   font-size: 1.25em; }
 
-.about-link {
-  -webkit-transition: all 700ms ease-out;
-  -moz-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
-  color: #141414; }
-  .about-link:hover, .about-link:active, .about-link:focus {
-    color: #6a386b; }
-  .about-link:visited {
-    color: #141414; }
-
 .contact {
   font-size: 6em;
   text-align: center; }
@@ -92,6 +81,26 @@ h6 {
     left: 47%; }
   .contact-link.coffee {
     left: 50%; }
+
+.about-button {
+  -webkit-transition: all 700ms ease-out;
+  -moz-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  font-weight: 700;
+  color: #141414;
+  border: 2px solid #141414;
+  border-radius: 6px;
+  background: transparent;
+  margin: 1% 5%; }
+  .about-button:hover, .about-button:active, .about-button:focus {
+    color: #6b5d65;
+    border: none;
+    background: #141414; }
+  .about-button:visted {
+    color: #141414;
+    border: 2px solid #141414;
+    background: transparent; }
 
 #home {
   background: url(../images/tc.jpg) no-repeat center center fixed;

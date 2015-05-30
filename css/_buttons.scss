@@ -1,0 +1,19 @@
+.about-button {
+  @include link-transition(700ms);
+  font-weight: 700;
+  color: $black;
+  border: 2px solid $black;
+  border-radius: 6px;
+  background: transparent;
+  margin: 1% 5%;
+  &:hover, &:active, &:focus {
+    color: $orchid;
+    border: none;
+    background: $black;
+  }
+  &:visted {
+    color: $black;
+    border: 2px solid $black;
+    background: transparent;
+  }
+}

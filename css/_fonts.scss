@@ -66,20 +66,6 @@ h6 {
   font-size: 1.25em;
 }
 
-.about-link {
-  @include link-transition(700ms);
-  color: $black;
-  &:hover, &:active, &:focus {
-    color: $lilac;
-  }
-  &:visited {
-    color: $black;
-  }
-  // &.bump{
-  //   margin-left: 2%;
-  // }
-}
-
 .contact {
   font-size: 6em;
   text-align: center;
