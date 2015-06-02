@@ -1,13 +1,19 @@
 #home {
   background: url(../images/tc.jpg) no-repeat center center fixed;
   @include bg-size(cover);
-  min-height: 1000px;
-  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative;
-
+  min-height: 1000px;
+  @include breakpoint(tablet){
+    min-height: 700px;
+  }
+  @include breakpoint(mobile){
+    min-height: 600px;
+  }
+  @include breakpoint(iphone){
+    min-height: 500px;
+  }
 }
 
 .home-article,
@@ -22,40 +28,72 @@
 #ny {
   background: url(../images/nyc.jpg) no-repeat center center fixed;
   @include bg-size(cover);
-  min-height: 1000px;
-  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative;
+  min-height: 1000px;
+  @include breakpoint(tablet){
+    min-height: 700px;
+  }
+  @include breakpoint(mobile){
+    min-height: 600px;
+  }
+  @include breakpoint(iphone){
+    min-height: 500px;
+  }
 }
 
 .foreground {
   &.image {
     background: url(../images/hn.jpg) no-repeat center center fixed;
     @include bg-size(cover);
+    @include breakpoint(tablet){
+       background: url(../images/hntablet.jpg) no-repeat center center fixed;
+    }
+    @include breakpoint(mobile){
+       background: url(../images/hnmobile.jpg) no-repeat center center fixed;
+    }
+    @include breakpoint(iphone){
+     background: url(../images/hniphone.jpg) no-repeat center center fixed;
+    }
+
   }
   min-height: 700px;
-  height: 1000px;
+  @include breakpoint(tablet){
+    min-height: 700px;
+  }
+  @include breakpoint(mobile){
+    min-height: 600px;
+  }
+  @include breakpoint(iphone){
+    min-height: 500px;
+  }
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative;
 
 }
 
 
 .article-box {
-width: 100%;
-height: auto;
-background: rgba($lt-gray, 0.5);
-padding: 2%;
-margin: 2% 5%;
+  width: 100%;
+  height: auto;
+  background: rgba($lt-gray, 0.5);
+  padding: 2%;
+  margin: 2% 5%;
+  @include breakpoint(tablet){
+    margin: 0;
+  }
+  @include breakpoint(mobile){
+    margin: 0;
+  }
+  @include breakpoint(iphone){
+    margin: 0;
+  }
 }
 
 .contact-box{
   position: relative;
-  // width: 320px;
   height: auto;
   margin: 15% auto;
 

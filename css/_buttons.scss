@@ -1,19 +1,19 @@
 .about-button {
   @include link-transition(700ms);
   font-weight: 700;
-  color: $black;
-  border: 2px solid $black;
+  color: $charcoal;
+  border: 2px solid $charcoal;
   border-radius: 6px;
   background: transparent;
   margin: 1% 5%;
   &:hover, &:active, &:focus {
-    color: $orchid;
+    color: $lt-gray;
     border: none;
-    background: $black;
+    background: $charcoal;
   }
   &:visted {
-    color: $black;
-    border: 2px solid $black;
+    color: $charcoal;
+    border: 2px solid $charcoal;
     background: transparent;
   }
 }

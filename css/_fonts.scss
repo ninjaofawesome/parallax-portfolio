@@ -53,11 +53,20 @@ h6 {
 }
 
 .subtitle {
-  color: $black;
-  font-size: 7em;
+  color: $blue;
   font-family: $serif;
   font-style: italic;
   margin: 1% 5%;
+  font-size: 7em;
+  @include breakpoint(tablet){
+    font-size: 6em;
+  }
+  @include breakpoint(mobile){
+    font-size: 5em;
+  }
+  @include breakpoint(iphone){
+    font-size: 4em;
+  }
 }
 
 .about {
@@ -87,12 +96,21 @@ h6 {
   &:visited {
     color: $black;
   }
-  &.twitter {
-    left: 47%;
-  }
-  &.coffee {
-    left: 50%;
-  }
+      &.twitter {
+        left: 47%;
+        @include breakpoint(tablet){
+          left: 44%;
+        }
+        @include breakpoint(mobile){
+          left: 40%;
+        }
+        @include breakpoint(iphone){
+          left: 35%;
+        }
+      }
+      &.coffee {
+        left: 50%;
+      }
 }
 
 

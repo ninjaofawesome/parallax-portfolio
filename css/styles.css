@@ -51,11 +51,20 @@ h6 {
       font-size: 10em; } }
 
 .subtitle {
-  color: #141414;
-  font-size: 7em;
+  color: #365371;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-style: italic;
-  margin: 1% 5%; }
+  margin: 1% 5%;
+  font-size: 7em; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .subtitle {
+      font-size: 6em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .subtitle {
+      font-size: 5em; } }
+  @media all and (max-width: 479px) {
+    .subtitle {
+      font-size: 4em; } }
 
 .about {
   color: #141414;
@@ -79,6 +88,15 @@ h6 {
     color: #141414; }
   .contact-link.twitter {
     left: 47%; }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .contact-link.twitter {
+        left: 44%; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .contact-link.twitter {
+        left: 40%; } }
+    @media all and (max-width: 479px) {
+      .contact-link.twitter {
+        left: 35%; } }
   .contact-link.coffee {
     left: 50%; }
 
@@ -88,18 +106,18 @@ h6 {
   -o-transition: all 700ms ease-out;
   transition: all 700ms ease-out;
   font-weight: 700;
-  color: #141414;
-  border: 2px solid #141414;
+  color: #333333;
+  border: 2px solid #333333;
   border-radius: 6px;
   background: transparent;
   margin: 1% 5%; }
   .about-button:hover, .about-button:active, .about-button:focus {
-    color: #6b5d65;
+    color: #e5e5e5;
     border: none;
-    background: #141414; }
+    background: #333333; }
   .about-button:visted {
-    color: #141414;
-    border: 2px solid #141414;
+    color: #333333;
+    border: 2px solid #333333;
     background: transparent; }
 
 #home {
@@ -108,12 +126,19 @@ h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 1000px;
-  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
-  position: relative; }
+  position: relative;
+  min-height: 1000px; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    #home {
+      min-height: 700px; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    #home {
+      min-height: 600px; } }
+  @media all and (max-width: 479px) {
+    #home {
+      min-height: 500px; } }
 
 .home-article,
 .ny-article {
@@ -129,19 +154,24 @@ h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 1000px;
-  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
-  position: relative; }
+  position: relative;
+  min-height: 1000px; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    #ny {
+      min-height: 700px; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    #ny {
+      min-height: 600px; } }
+  @media all and (max-width: 479px) {
+    #ny {
+      min-height: 500px; } }
 
 .foreground {
   min-height: 700px;
-  height: 1000px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1920px;
   position: relative; }
   .foreground.image {
     background: url(../images/hn.jpg) no-repeat center center fixed;
@@ -149,6 +179,24 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .foreground.image {
+        background: url(../images/hntablet.jpg) no-repeat center center fixed; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .foreground.image {
+        background: url(../images/hnmobile.jpg) no-repeat center center fixed; } }
+    @media all and (max-width: 479px) {
+      .foreground.image {
+        background: url(../images/hniphone.jpg) no-repeat center center fixed; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .foreground {
+      min-height: 700px; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .foreground {
+      min-height: 600px; } }
+  @media all and (max-width: 479px) {
+    .foreground {
+      min-height: 500px; } }
 
 .article-box {
   width: 100%;
@@ -156,6 +204,15 @@ h6 {
   background: rgba(229, 229, 229, 0.5);
   padding: 2%;
   margin: 2% 5%; }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .article-box {
+      margin: 0; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .article-box {
+      margin: 0; } }
+  @media all and (max-width: 479px) {
+    .article-box {
+      margin: 0; } }
 
 .contact-box {
   position: relative;
