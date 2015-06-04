@@ -1,6 +1,9 @@
 .about-button {
   @include link-transition(700ms);
-  font-weight: 700;
+  font-weight: 500;
+  font-family: $serif;
+  font-style: italic;
+  font-size: 1.25em;
   color: $charcoal;
   border: 2px solid $charcoal;
   border-radius: 6px;

@@ -11,6 +11,7 @@
 p {
   text-align: justify;
   font-weight: 700;
+  font-family: $serif;
 }
 
 h1,
@@ -24,7 +25,7 @@ h6 {
 }
 
 .serif {
-  @include stretch-font(0.75, 1);
+  // @include stretch-font(0.75, 1);
   font-family: $serif;
   font-style: italic;
 }
@@ -85,8 +86,6 @@ h6 {
   text-align: center;
 }
 
-
-
 .contact-link {
   color: $black;
   position: absolute;
@@ -111,6 +110,31 @@ h6 {
       &.coffee {
         left: 50%;
       }
+}
+
+.splash {
+  color: $charcoal;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.intro {
+  margin: 1% 15%;
+}
+
+.title{
+  font-size: 3em;
+  margin-top: 2%;
+}
+
+.center-title {
+  text-align: center;
+  font-family: $serif;
+  font-style: italic;
+  position: absolute;
+  top: 25%;
+  left: 37.5%;
+  color: $black;
 }
 
 
