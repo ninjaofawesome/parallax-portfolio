@@ -28,6 +28,9 @@ h6 {
   // @include stretch-font(0.75, 1);
   font-family: $serif;
   font-style: italic;
+  &.thin {
+    font-weight: 600;
+  }
 }
 
 .centered {
@@ -54,7 +57,7 @@ h6 {
 }
 
 .subtitle {
-  color: $blue;
+  color: $white;
   font-family: $serif;
   font-style: italic;
   margin: 1% 5%;
@@ -69,6 +72,7 @@ h6 {
     font-size: 4em;
   }
 }
+
 
 .about {
   color: $black;

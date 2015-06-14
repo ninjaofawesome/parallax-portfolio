@@ -5,9 +5,9 @@
   font-style: italic;
   font-size: 1.25em;
   color: $charcoal;
-  border: 2px solid $charcoal;
+  border: 1px solid $charcoal;
   border-radius: 6px;
-  background: transparent;
+  background: $white;
   margin: 1% 5%;
   &:hover, &:active, &:focus {
     color: $lt-gray;
