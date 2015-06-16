@@ -276,3 +276,15 @@ h6 {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: 500;
   font-style: italic; }
+
+.background {
+  list-style-type: none;
+  font-size: 1.25em; }
+  .background .background-item {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 2%;
+    color: #2d2d2d;
+    display: block; }
+  .background li {
+    color: #727272; }
