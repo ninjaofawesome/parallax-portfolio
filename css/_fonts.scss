@@ -10,8 +10,9 @@
 
 p {
   text-align: justify;
-  font-weight: 700;
+  font-weight: 400;
   font-family: $serif;
+  font-size: 20px;
 }
 
 h1,
@@ -71,6 +72,13 @@ h6 {
   @include breakpoint(iphone){
     font-size: 4em;
   }
+}
+
+.show-you {
+  color: $white;
+  font-family: $serif;
+  font-style: italic;
+  margin: 1% 5%;
 }
 
 
@@ -139,6 +147,10 @@ h6 {
   top: 25%;
   left: 37.5%;
   color: $black;
+}
+
+.elevator-pitch{
+  padding: 1% 5%;
 }
 
 

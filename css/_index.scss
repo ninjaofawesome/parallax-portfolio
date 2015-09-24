@@ -25,6 +25,27 @@
   width: 100%;
 }
 
+.hannah-article{
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  .hn-box{
+    width: 100%;
+    height: 200px;
+    margin-top: 125px;
+  }
+ }
+
+.whoami {
+  font-size: 7.5vw;
+}
+
+.whoami-subtitle {
+  font-size: 3.75vw;
+}
+
+
+
 #ny {
   background: url(../images/nyc.jpg) no-repeat center center fixed;
   @include bg-size(cover);
@@ -43,42 +64,10 @@
   }
 }
 
-.foreground {
-  &.image {
-    background: url(../images/hn.jpg) no-repeat center center fixed;
-    @include bg-size(cover);
-    @include breakpoint(tablet){
-       background: url(../images/hntablet.jpg) no-repeat center center fixed;
-    }
-    @include breakpoint(mobile){
-       background: url(../images/hnmobile.jpg) no-repeat center center fixed;
-    }
-    @include breakpoint(iphone){
-     background: url(../images/hniphone.jpg) no-repeat center center fixed;
-    }
-
-  }
-  min-height: 700px;
-  @include breakpoint(tablet){
-    min-height: 700px;
-  }
-  @include breakpoint(mobile){
-    min-height: 600px;
-  }
-  @include breakpoint(iphone){
-    min-height: 500px;
-  }
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
-
-}
-
 
 .article-box {
   width: 100%;
   height: auto;
-  background: rgba($lt-gray, 0.5);
   padding: 2%;
   margin: 2% 5%;
   @include breakpoint(tablet){
@@ -92,9 +81,12 @@
   }
 }
 
+.top-bump {
+  margin-top: 15%;
+}
+
 .contact-box{
   position: relative;
   height: auto;
   margin: 15% auto;
-
 }

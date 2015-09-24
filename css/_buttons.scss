@@ -1,5 +1,5 @@
 .about-button {
-  @include link-transition(700ms);
+  @include link-transition(500ms);
   font-weight: 500;
   font-family: $serif;
   font-style: italic;

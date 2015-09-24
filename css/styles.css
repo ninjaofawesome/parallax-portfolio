@@ -6,8 +6,9 @@
   /* Legacy iOS */ }
 p {
   text-align: justify;
-  font-weight: 700;
-  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-weight: 400;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 20px; }
 
 h1,
 h2,
@@ -58,6 +59,12 @@ h6 {
   @media all and (max-width: 479px) {
     .subtitle {
       font-size: 4em; } }
+
+.show-you {
+  color: white;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: italic;
+  margin: 1% 5%; }
 
 .about {
   color: #141414;
@@ -114,11 +121,14 @@ h6 {
   left: 37.5%;
   color: #141414; }
 
+.elevator-pitch {
+  padding: 1% 5%; }
+
 .about-button {
-  -webkit-transition: all 700ms ease-out;
-  -moz-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
   font-weight: 500;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-style: italic;
@@ -165,6 +175,21 @@ h6 {
   top: 10%;
   width: 100%; }
 
+.hannah-article {
+  height: 500px;
+  width: 100%;
+  text-align: center; }
+  .hannah-article .hn-box {
+    width: 100%;
+    height: 200px;
+    margin-top: 125px; }
+
+.whoami {
+  font-size: 7.5vw; }
+
+.whoami-subtitle {
+  font-size: 3.75vw; }
+
 #ny {
   background: url(../images/nyc.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -185,40 +210,9 @@ h6 {
     #ny {
       min-height: 500px; } }
 
-.foreground {
-  min-height: 700px;
-  margin: 0 auto;
-  width: 100%;
-  position: relative; }
-  .foreground.image {
-    background: url(../images/hn.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-    @media all and (min-width: 768px) and (max-width: 991px) {
-      .foreground.image {
-        background: url(../images/hntablet.jpg) no-repeat center center fixed; } }
-    @media all and (min-width: 480px) and (max-width: 767px) {
-      .foreground.image {
-        background: url(../images/hnmobile.jpg) no-repeat center center fixed; } }
-    @media all and (max-width: 479px) {
-      .foreground.image {
-        background: url(../images/hniphone.jpg) no-repeat center center fixed; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .foreground {
-      min-height: 700px; } }
-  @media all and (min-width: 480px) and (max-width: 767px) {
-    .foreground {
-      min-height: 600px; } }
-  @media all and (max-width: 479px) {
-    .foreground {
-      min-height: 500px; } }
-
 .article-box {
   width: 100%;
   height: auto;
-  background: rgba(114, 114, 114, 0.5);
   padding: 2%;
   margin: 2% 5%; }
   @media all and (min-width: 768px) and (max-width: 991px) {
@@ -230,6 +224,9 @@ h6 {
   @media all and (max-width: 479px) {
     .article-box {
       margin: 0; } }
+
+.top-bump {
+  margin-top: 15%; }
 
 .contact-box {
   position: relative;
@@ -288,3 +285,7 @@ h6 {
     display: block; }
   .background li {
     color: #727272; }
+
+.contact-links {
+  width: 100%;
+  height: 100px; }
