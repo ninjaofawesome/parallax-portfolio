@@ -157,6 +157,19 @@ h6 {
   padding: 1% 5%;
 }
 
+.press-link {
+  @include link-transition(500ms);
+  color: $charcoal;
+  text-decoration: underline;
+  &:hover, &:active, &:focus {
+    @include box-scale(1.05);
+    color: $black;
+  }
+  &:visited {
+    color: $charcoal;
+  }
+}
+
 
 
 

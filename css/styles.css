@@ -128,6 +128,22 @@ h6 {
 .elevator-pitch {
   padding: 1% 5%; }
 
+.press-link {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  color: #2d2d2d;
+  text-decoration: underline; }
+  .press-link:hover, .press-link:active, .press-link:focus {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    color: #141414; }
+  .press-link:visited {
+    color: #2d2d2d; }
+
 .about-button {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
@@ -253,7 +269,8 @@ h6 {
   width: 100%;
   height: auto;
   margin-top: 15%;
-  z-index: 1; }
+  z-index: 1;
+  padding: 2.5% 0; }
 
 .underline {
   height: 1px;
@@ -262,12 +279,22 @@ h6 {
   margin: 0 5%; }
 
 .sp-box {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
   width: 150px;
   height: 150px;
   display: block;
   margin: 0 auto;
   background: #727272;
   margin: 2% auto; }
+  .sp-box:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15); }
 
 .sp-logo {
   color: white;
@@ -278,9 +305,36 @@ h6 {
   font-weight: 500;
   font-style: italic; }
 
+.logo-link-box {
+  display: block;
+  margin: 2% auto;
+  width: 300px;
+  height: 100px; }
+
+.logo-link {
+  -webkit-transition: all 750ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+  margin: 5%;
+  color: #727272; }
+  .logo-link.quora {
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    margin-top: -5px; }
+  .logo-link:hover {
+    color: #727272;
+    text-decoration: none;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15); }
+
 .background {
   list-style-type: none;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  padding: 0 5%; }
   .background .background-item {
     font-weight: 700;
     font-size: 1.5em;
@@ -294,3 +348,16 @@ h6 {
   width: 100%;
   height: 100px;
   margin: 2%; }
+
+.project-box {
+  background: white;
+  width: 100%;
+  height: 75%;
+  margin-top: 15%;
+  z-index: 1;
+  padding: 2.5% 0; }
+
+.screenshot-img {
+  width: 300px;
+  display: block;
+  margin: 2% auto; }
