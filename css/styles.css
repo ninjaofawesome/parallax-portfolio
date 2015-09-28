@@ -144,6 +144,9 @@ h6 {
   .press-link:visited {
     color: #2d2d2d; }
 
+.descriptor {
+  padding: 1% 5%; }
+
 .about-button {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
@@ -352,7 +355,8 @@ h6 {
 .project-box {
   background: white;
   width: 100%;
-  height: 75%;
+  min-height: 1000px;
+  overflow: hidden;
   margin-top: 15%;
   z-index: 1;
   padding: 2.5% 0; }
@@ -361,3 +365,11 @@ h6 {
   width: 300px;
   display: block;
   margin: 2% auto; }
+
+.stack-list {
+  list-style-type: none; }
+
+.stack-item {
+  font-size: 1.25em;
+  margin: 1% 0;
+  padding: 0 5%; }
