@@ -128,20 +128,25 @@ h6 {
 .elevator-pitch {
   padding: 1% 5%; }
 
-.press-link {
+.press-link,
+.site-link {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
   color: #2d2d2d;
   text-decoration: underline; }
-  .press-link:hover, .press-link:active, .press-link:focus {
+  .press-link:hover, .press-link:active, .press-link:focus,
+  .site-link:hover,
+  .site-link:active,
+  .site-link:focus {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
     transform: scale(1.05);
     color: #141414; }
-  .press-link:visited {
+  .press-link:visited,
+  .site-link:visited {
     color: #2d2d2d; }
 
 .descriptor {
