@@ -59,10 +59,10 @@
 }
 
 @mixin box-transition($time){
-  -webkit-transition: all $time ease-in-out;
-  -moz-transition: all $time ease-in-out;
-  -o-transition: all $time ease-in-out;
-  transition: all $time ease-in-out;
+  -webkit-transition: all $time ease-out;
+  -moz-transition: all $time ease-out;
+  -o-transition: all $time ease-out;
+  transition: all $time ease-out;
 }
 
 @mixin box-scale($percent){

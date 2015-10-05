@@ -1,17 +1,14 @@
-(function(){
+$(document).ready(function(){
+  console.log('parallax loaded');
 
-  var parallax = document.querySelectorAll(".parallax"),
-      speed = 0.5;
+  $('div[data-type="background"]').each(function(){
+    $(window).scroll(function(){
+      var backgroundObj = $(this);
+      var yPosition = -(window.scrollTop() / backgroundObj.data('speed'));
+      var coordinates = '50% '+ yPosition + 'px';
 
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
-
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-
-      el.style.backgroundPosition = elBackgrounPos;
-
+      backgroundObj.css({ backgroundPosition: coordinates });
     });
-  };
+  });
 
-})();
+});

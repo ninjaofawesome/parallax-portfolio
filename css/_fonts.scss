@@ -175,6 +175,34 @@ h6 {
   padding: 1% 5%;
 }
 
+.menu-items{
+  list-style-type: none;
+  text-align: justify;
+  font-weight: 700px;
+  font-family: $serif;
+
+  .mi {
+    line-height: 50px;
+    vertical-align: middle;
+  }
+
+  .menu-link {
+    @include link-transition(500ms);
+    color: $charcoal;
+    font-size: 1.5em;
+    &:hover, &:active, &:focus {
+      @include box-scale(1.15);
+      color: $charcoal;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $charcoal;
+      text-decoration: none;
+    }
+
+  }
+}
+
 
 
 
